@@ -47,7 +47,7 @@ namespace Ray.BiliBiliTool.Console
 
             try
             {
-                _logger.LogInformation("BiliBiliToolPro 开始运行...{newLine}", Environment.NewLine);
+                _logger.LogInformation("凯琳酱正在执行BiliBili任务 ...{newLine}", Environment.NewLine);
 
                 var pass = PreCheck();
                 if (!pass) return Task.CompletedTask;

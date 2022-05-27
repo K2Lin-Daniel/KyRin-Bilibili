@@ -178,7 +178,7 @@ namespace Ray.Serilog.Sinks.Batched
 
         protected virtual string GetPushTitle(LogEvent triggerLogEvent)
         {
-            var title = "BiliBiliTool推送";
+            var title = "凯琳酱的提醒";
 
             var msg = RenderMessage(triggerLogEvent).Replace(Environment.NewLine, "");
             var list = msg.Split('·').ToList();
